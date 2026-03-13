@@ -37,7 +37,7 @@ st.markdown("Este es un chatBot de TiTi, ¡Escribe tu mensaje abajo para poder a
 chat_model = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
     temperature=0.7,
-    google_api_key="AIzaSyB3OYUCxNMaVc1jFK8B2qw5qAJIw_IHQP8"
+    google_api_key="[GCP_API_KEY]"
 )
 
 # ==========================================
