@@ -64,21 +64,7 @@ El código base está preparado para funcionar tanto con Google Gemini como con 
 
 ***
 
-## 5. Gestión de Dependencias (`requirements.txt`)
-Para replicar instalaciones en otros equipos, se estandariza el uso del archivo `requirements.txt`.
-
-*   **Generar el archivo** (exporta las librerías actualmente instaladas en el venv):
-    ```bash
-    pip freeze > requirements.txt
-    ```
-*   **Instalar desde el archivo** (usado al clonar el repositorio por primera vez):
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-***
-
-## 6. Ejecución de la Aplicación
+## 5. Ejecución de la Aplicación
 Una vez configurado y con el entorno virtual activo, dirígete a la carpeta correspondiente y arranca el servidor web local:
 
 ```bash
@@ -88,7 +74,7 @@ streamlit run chatbot_streamlit.py
 
 ***
 
-## 7. Interfaz Gráfica (Navegador)
+## 6. Interfaz Gráfica (Navegador)
 Al ejecutar el comando anterior, pasará lo siguiente:
 
 1. El terminal te mostrará dos URLs: una `Network URL` y una `Local URL`.
